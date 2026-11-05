@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BD Trade Licence</title>
+    <style>
+        /* ================= CUSTOM FONT DEFINITIONS ================= */
+        @font-face {
+            font-family: 'NirmalaUI';
+            src: url('fonts/Nirmala.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'NirmalaUIBold';
+            src: url('fonts/NirmalaB.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'SutonnyMJ';
+            src: url('fonts/SUTOM____.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* ================= BASE STYLES ================= */
+        Form { min-height: 0px; background-color: #FFF; }
+        @page { size: auto; }
+        @media print { 
+            body { -webkit-print-color-adjust: exact; } 
+            .no-print { display: none !important; }
+        }
+        h3 { font-family: 'NirmalaUI', sans-serif; font-size: 14px; color: black; }
+        .style1 { font-size: 12px; }
+        td.container { height: 20px; }
+        .waterMark { width: 600px; height: 800px; background-image: url('dscc.png'); background-repeat: no-repeat; background-position: center; padding-left: 225px; padding-top: 500px; opacity: 0.1; }
+        .fullBody { position: absolute; top: 25px; bottom: 0px; left: auto; right: auto; }
+        .auto-style1 { width: 122px; font-family: 'NirmalaUI'; }
+        .auto-style3 { width: 25%; font-size: 12px; font-family: 'NirmalaUIBold'; }
+        .auto-style4 { width: 16%; font-size: 12px; font-family: 'NirmalaUIBold'; }
+        .auto-style5 { width: 100%; }
+
+        /* FONT UTILITIES */
+        .font-nirmala { font-family: 'NirmalaUI', sans-serif; }
+        .font-nirmala-bold { font-family: 'NirmalaUIBold', sans-serif; font-weight: bold; }
+        .font-times { font-family: 'Times New Roman', Times, serif; }
+        .font-sutonny { font-family: 'SutonnyMJ', sans-serif; }
+        .font-arial { font-family: Arial, Helvetica, sans-serif; }
+
+        /* Mobile Touch & Print Rules */
+        .no-print {
+            position: relative;
+            z-index: 99999;
+            pointer-events: auto !important;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="rpt_TradeLicense_print_ver2.aspx?id=733fb071-1b2b-4a57-a4ac-0c5fe969c125&amp;printtype=NEW&amp;transactionno=514081549" id="form1">
+        <div class="aspNetHidden">
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExMzQ2NDgzNkNkZBvref89chw03cCdlJe7PIERJWJzP5bbPxr+64rBQyn7" />
+        </div>
+        <div class="waterMark"></div>
+        
+        <!-- mul licence card container -->
+        <div id="license-card-container" style="width: 900px; padding-top: 0px;" class="fullBody">
+            <div style="width: 900px; text-align: center; padding-top: 1px;">
+                <div style="width: 900px; text-align: center; padding-top: 0px;">
+                    <table id="header" width="900" border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                            <tr>
+                                <td width="300"></td>
+                                <td width="600">
+                                    <h2 class="font-nirmala" style="color: darkslategrey">ঢাকা দক্ষিণ সিটি কর্পোরেশন</h2>
+                                </td>
+                                <td width="300">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td width="300" rowspan="5">
+                                    <img src='' id="imgnew" style="width: 150px; height: 140px;" />
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="3" class="font-nirmala"> লাইসেন্স ইস্যুর বিবরণ </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3"> <hr> </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                            <tr>
+                                                <td class="auto-style1 font-nirmala" text-align="left">ইস্যুর তারিখ</td>
+                                                <td style="text-align: left"> <span class="font-times" id="val_issue_date">:</span></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="auto-style1 font-nirmala" text-align="left">ইস্যুর সময়</td>
+                                                <td style="text-align: left"> <span class="font-times" id="val_issue_time">:</span></td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td width="300">
+                                    <div style="vertical-align: 0px">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr style="padding-top: 0px">
+                                                    <td style="vertical-align: top;" class="font-times">www.dscc.gov.bd</td>
+                                                </tr>
+                                                <tr><td></td></tr>
+                                                <tr><td>&nbsp;</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                                <td rowspan="5" width="300">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                            <tr>
+                                                <td> <img src='' id="imgprofile" style="width: 180px; height: 200px;" /> </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="300"> <img src="dscclogoforprint.jpg" style="width: 100px; height: 100px;" /> </td>
+                            </tr>
+                            <tr>
+                                <td> <h2 class="font-nirmala">ই<span class="font-times">-</span>ট্রেড লাইসেন্স </h2> </td>
+                            </tr>
+                            <tr>
+                                <td width="300">
+                                    <h3 id="val_license_no" class="font-nirmala">লাইসেন্স নং&nbsp;&nbsp;&nbsp; : </h3>
+                                </td>
+                            </tr>
+                            <tr> </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <!-- আইনের ধারা সংক্রান্ত বর্ণনা -->
+            <div style="width: 900px; padding-top: 12px;">
+                <table id="body" width="900" border="0" cellspacing="0" cellpadding="0" align="center" style="border: 2px solid #E3DFCB;">
+                    <tr>
+                        <td style="color: darkslategrey; font-size: 12px;" class="font-nirmala">
+                            স্থানীয় সরকার <span class="font-times">(</span>সিটি কর্পোরেশন<span class="font-times">)</span> আইন<span class="font-times">,</span> ২০০৯ <span class="font-times">(</span>২০০৯ সনের ৬০ নং আইন<span class="font-times">)</span> এর ধারা ৮৪<span class="font-times">-</span> তে প্রদত্ত ক্ষমতাবলে সরকার প্রণীত আদর্শ কর তফসিল<span class="font-times">,</span> ২০১৬ এর ১০ অনুচ্ছেদ অনুযায়ী ব্যবসা<span class="font-times">,</span> বৃত্তি<span class="font-times">,</span> পেশা বা শিল্প প্রতিষ্ঠানের উপর আরোপিত কর আদায়ের লক্ষ্যে নিন্মবর্ণিত ব্যক্তি<span class="font-times">/</span> প্রতিষ্ঠানের আনুকূলে অত্র ট্রেড লাইসেন্সটি ইস্যু করা হলো। 
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- মূল তথ্য টেবিল -->
+            <div style="width: 900px; padding-top: 10px;">
+                <table id="body" width="900" border="0" cellspacing="0" cellpadding="0" align="left" style="border: 2px solid #E3DFCB;">
+                    <tbody>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px;" class="font-nirmala-bold">১।</td>
+                            <td class="auto-style3 font-nirmala-bold">&nbsp; ব্যবসা প্রতিষ্ঠানের নাম</td>
+                            <td width="2%">:</td>
+                            <td style="font-size: 12px;" class="font-nirmala-bold" colspan="4" id="val_business_name"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px;" class="font-nirmala-bold">২।</td>
+                            <td class="auto-style3 font-nirmala-bold">&nbsp;&nbsp;প্রতিষ্ঠানের মালিকের নাম</td>
+                            <td width="2%">:</td>
+                            <td style="font-size: 12px;" class="font-nirmala-bold" colspan="4" id="val_owner_name"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px;" class="font-nirmala-bold">৩।</td>
+                            <td class="auto-style3 font-nirmala-bold">&nbsp; পিতা <span class="font-times">/</span> স্বামীর নাম</td>
+                            <td width="2%">:</td>
+                            <td style="font-size: 12px;" class="font-nirmala-bold" id="val_father_name"></td>
+                            <td class="auto-style4"></td>
+                            <td width="10%"></td>
+                            <td width="10%"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px;" class="font-nirmala-bold">৪।</td>
+                            <td class="auto-style3 font-nirmala-bold">&nbsp; মাতার নাম</td>
+                            <td width="2%">:</td>
+                            <td style="font-size: 12px;" class="font-nirmala-bold" id="val_mother_name"></td>
+                            <td class="auto-style4"></td>
+                            <td width="10%"></td>
+                            <td width="10%"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px;" class="font-nirmala-bold">৫।</td>
+                            <td class="auto-style3 font-nirmala-bold">&nbsp; ব্যবসার প্রকৃতি&nbsp;</td>
+                            <td width="2%">:</td>
+                            <td style="font-size: 12px;" class="font-nirmala-bold" id="val_business_nature"></td>
+                            <td class="auto-style4"></td>
+                            <td width="10%"></td>
+                            <td width="10%"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px; vertical-align: top;" class="font-nirmala-bold">৬।</td>
+                            <td class="auto-style3 font-nirmala-bold" style="vertical-align: top;">&nbsp; ব্যবসার ধরণ</td>
+                            <td width="2%" style="vertical-align: top;">:</td>
+                            <td colspan="4" style="font-size: 12px; vertical-align: top;" class="font-nirmala-bold" id="val_business_type"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px;" class="font-nirmala-bold">৭।</td>
+                            <td class="auto-style3 font-nirmala-bold">&nbsp; প্রতিষ্ঠানের ঠিকানা </td>
+                            <td width="2%">:</td>
+                            <td colspan="4" style="font-size: 12px;" class="font-nirmala-bold" id="val_business_address"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px;" class="font-nirmala-bold">৮। </td>
+                            <td class="auto-style3 font-nirmala-bold" style="border-top: solid; border-width: 1px">&nbsp; অঞ্চল <span class="font-times">/</span> বাজার শাখা</td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" class="font-nirmala" id="val_zone"></td>
+                            <td style="font-size: 12px; text-align: right;" class="auto-style4 font-nirmala-bold">ওয়ার্ড <span class="font-times">/</span> মার্কেট</td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" class="font-nirmala-bold" id="val_ward"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala-bold" style="font-size: 12px;">&nbsp; এলাকা</td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" class="font-nirmala-bold" id="val_area"></td>
+                            <td class="auto-style4">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                            <td class="auto-style4">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                            <td class="auto-style4">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px;" class="font-nirmala-bold">৯।</td>
+                            <td class="auto-style3 font-nirmala-bold" style="font-size: 12px;">&nbsp; এনআইডি<span class="font-times">/</span>পাসপোর্ট<span class="font-times">/</span>জন্ম নিব<span class="font-times">:</span> নং</td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" id="val_nid"></td>
+                            <td style="font-size: 12px; text-align: right;" class="auto-style4 font-nirmala-bold">বি আই এন নং</td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 12px;" id="val_bin_no"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala-bold" style="font-size: 12px;">&nbsp; ফোন </td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" id="val_phone"></td>
+                            <td style="font-size: 12px; text-align: right;" class="auto-style4 font-nirmala-bold">ই<span class="font-times">-</span>মেইল</td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 12px;" class="font-times" id="val_email"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                            <td class="auto-style4">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="5%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px;" class="font-nirmala-bold">১০।</td>
+                            <td class="auto-style3 font-nirmala-bold" style="font-size: 12px;">&nbsp; অর্থ বছর</td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" id="val_fiscal_year"></td>
+                            <td style="font-size: 12px; text-align: right;" class="auto-style4 font-nirmala-bold">ব্যবসা শুরুর তারিখ</td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 12px;" id="val_start_date"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px;" class="font-nirmala-bold">১১।</td>
+                            <td class="auto-style3 font-nirmala-bold" style="border-bottom: solid; border-width: 1px; font-size: 12px;">&nbsp; মালিকের বর্তমান ঠিকানা<br> </td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                            <td style="border-bottom: solid; border-width: 1px; font-size: 12px;" class="auto-style4 font-nirmala-bold">মালিকের স্থায়ী ঠিকানা</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="5%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala">&nbsp; হোল্ডিং নং </td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" id="val_curr_holding"></td>
+                            <td class="auto-style4 font-nirmala">হোল্ডিং নং </td>
+                            <td width="0%">:</td>
+                            <td width="5%" style="font-size: 12px;" id="val_perm_holding"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala">&nbsp; রোড নং </td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" id="val_curr_road"></td>
+                            <td class="auto-style4 font-nirmala">রোড নং </td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 12px;" id="val_perm_road"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala">&nbsp; গ্রাম <span class="font-times">/</span> মহল্লা </td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" id="val_curr_village"></td>
+                            <td class="auto-style4 font-nirmala">গ্রাম <span class="font-times">/</span> মহল্লা </td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 12px;" id="val_perm_village"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala">&nbsp; পোস্টকোড </td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" class="font-nirmala" id="val_curr_postcode"></td>
+                            <td class="auto-style4 font-nirmala" style="font-size: 12px;">পোস্টকোড </td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 12px;" class="font-nirmala" id="val_perm_postcode"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala">&nbsp; থানা </td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" class="font-nirmala" id="val_curr_thana"></td>
+                            <td class="auto-style4 font-nirmala">থানা </td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 12px;" class="font-nirmala" id="val_perm_thana"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala">&nbsp; জেলা </td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" class="font-nirmala" id="val_curr_district"></td>
+                            <td class="auto-style4 font-nirmala">জেলা</td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 12px;" class="font-nirmala" id="val_perm_district"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala">&nbsp; বিভাগ </td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 12px;" class="font-nirmala" id="val_curr_division"></td>
+                            <td class="auto-style4 font-nirmala">বিভাগ </td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 12px;" class="font-nirmala" id="val_perm_division"></td>
+                        </tr>
+                        <tr>
+                            <td width="3%" style="font-weight: bold; text-align: right; font-size: 12px;" class="font-nirmala-bold">১২।</td>
+                            <td class="auto-style3 font-nirmala-bold" style="border-bottom: solid; border-width: 1px; font-size: 12px;">&nbsp; ট্রেড লাইসেন্স<span class="font-times">/</span>নবায়ন ফি<span class="font-times">(</span>বার্ষিক<span class="font-times">)</span> </td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                            <td class="auto-style4"></td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="5%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="3%"></td>
+                            <td class="auto-style3 font-nirmala">&nbsp; লাইসেন্স<span class="font-times">/</span>নবায়ন ফি </td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 16px;" class="font-sutonny">1000 </td>
+                            <td class="auto-style4 font-nirmala">সাইনবোর্ড কর</td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 16px;" class="font-sutonny">1000 </td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala">&nbsp; সারচার্জ</td>
+                            <td width="2%">: </td>
+                            <td width="15%" style="font-size: 16px;" class="font-sutonny">0 </td>
+                            <td class="auto-style4 font-nirmala">ভ্যাট</td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 16px;" class="font-sutonny">300</td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala">&nbsp; আয়কর <span class="font-times">/</span> উৎসেকর</td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 16px;" class="font-sutonny">0</td>
+                            <td class="auto-style4 font-nirmala">ফর্ম ফি</td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 16px;" class="font-sutonny">50.00</td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala" style="padding-left: 6px;">বকেয়া <span class="font-times">()</span></td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 16px;" class="font-sutonny">0</td>
+                            <td class="auto-style4">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="5%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3 font-nirmala">&nbsp; সংশোধনী ফি</td>
+                            <td width="2%">:</td>
+                            <td width="15%" style="font-size: 16px;" class="font-sutonny">0.00</td>
+                            <td class="auto-style4 font-nirmala" style="font-weight: bold">সর্বমোট</td>
+                            <td width="2%">:</td>
+                            <td width="5%" style="font-size: 16px;" class="font-sutonny">2350.00</td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                            <td class="auto-style4">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                            <td class="auto-style4">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="7" align="center" class="font-nirmala">অত্র ট্রেড লাইসেন্স এর মেয়াদ ৩০ শে জুন<span class="font-times">,</span> <span class="font-times" id="val_expiry_year">2027</span> পর্যন্ত</td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                            <td class="auto-style4">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td class="auto-style3">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                            <td class="auto-style4">&nbsp;</td>
+                            <td width="2%">&nbsp;</td>
+                            <td width="15%">&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="width: 900px; padding-top: 1px;">
+                <table id="personaldeta" width="900px" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="border: 2px solid #E3DFCB; font-size: 12px;">
+                    <tr>
+                        <td width="300px" align="center">
+                            <img src='Signature 1.png' style="width: 150px; height: 100px;" />
+                        </td>
+                        <td width="300px" align="center">
+                            <img id="val_seal_img" src='অঞ্চল-৫.png' style="width: 100px; height: 100px;" />
+                        </td>
+                        <td width="300px" align="center">
+                            <img src='Signatre 2.png' style="width: 150px; height: 100px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="300px" align="center" class="font-nirmala">লাইসেন্স ও বিজ্ঞাপন সুপারভাইজার </td>
+                        <td width="300px" align="center"></td>
+                        <td width="300px" align="center" class="font-nirmala">কর কর্মকর্তা </td>
+                    </tr>
+                    <tr>
+                        <td width="300px" align="center"></td>
+                        <td width="300px" align="center"></td>
+                        <td width="300px" align="center"></td>
+                    </tr>
+                    <tr>
+                        <td width="300px" align="center"></td>
+                        <td width="300px" align="center"></td>
+                        <td width="300px" align="center"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- ================= ACTION BUTTONS (Hidden on Print / PDF) ================= -->
+        <div class="no-print" style="width: 900px; text-align: center; margin: 30px 0; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+            <button type="button" onclick="goBackToEdit()" ontouchstart="goBackToEdit()" style="background: #ef4444; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 15px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1); -webkit-tap-highlight-color: transparent;">
+                ⬅ ভুল সংশোধন করুন (ফর্মে ফিরে যান)
+            </button>
+            <button type="button" onclick="triggerCustomPrint()" ontouchstart="triggerCustomPrint()" style="background: #0284c7; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 15px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1); -webkit-tap-highlight-color: transparent;">
+                🖨️ প্রিন্ট / PDF সেভ করুন
+            </button>
+        </div>
+    </form>
+
+    <script>
+        let globalLicenseNo = "TRAD-DSCC-000000-0000";
+        let globalOwnerName = "Owner";
+
+        // হেল্পার ফাংশন: চিহ্ন এবং বিশেষ অক্ষর প্রসেসিং
+        function processTextWithSpecialSymbols(text, defaultFontClass) {
+            if (!text) return "";
+            let words = text.split(/([/,\\-]);/);
+            let resultHtml = "";
+            
+            for (let i = 0; i < words.length; i++) {
+                let char = words[i];
+                if (char === '/' || char === ',' || char === '-') {
+                    resultHtml += `<span class="font-sutonny">${char}</span>`;
+                } else {
+                    resultHtml += `<span class="${defaultFontClass}">${char}</span>`;
+                }
+            }
+            return resultHtml;
+        }
+
+        window.onload = function() {
+            const currentSystemYear = new Date().getFullYear();
+            let issueYear = currentSystemYear;
+            let customLicenseNo = "";
+
+            const savedData = sessionStorage.getItem('tradeLicenseData');
+            if (savedData) {
+                const data = JSON.parse(savedData);
+                
+                if(data.qr_code) document.getElementById("imgnew").src = data.qr_code;
+                if(data.profile_pic) document.getElementById("imgprofile").src = data.profile_pic;
+
+                // ১-৭ পর্যন্ত NirmalaBold ডায়নামিক ফিল্ডস
+                if(data.business_name) {
+                    let el = document.getElementById("val_business_name");
+                    el.className = "font-nirmala-bold";
+                    el.innerText = data.business_name;
+                }
+                if(data.owner_name) {
+                    let el = document.getElementById("val_owner_name");
+                    el.className = "font-nirmala-bold";
+                    el.innerText = data.owner_name;
+                    globalOwnerName = data.owner_name.trim();
+                }
+                if(data.father_name) {
+                    let el = document.getElementById("val_father_name");
+                    el.className = "font-nirmala-bold";
+                    el.innerText = data.father_name;
+                }
+                if(data.mother_name) {
+                    let el = document.getElementById("val_mother_name");
+                    el.className = "font-nirmala-bold";
+                    el.innerText = data.mother_name;
+                }
+                if(data.business_nature) {
+                    let el = document.getElementById("val_business_nature");
+                    el.className = "font-nirmala-bold";
+                    el.innerText = data.business_nature;
+                }
+                if(data.business_type) {
+                    let el = document.getElementById("val_business_type");
+                    el.className = "font-nirmala-bold";
+                    el.innerText = data.business_type;
+                }
+                if(data.business_address) {
+                    let el = document.getElementById("val_business_address");
+                    el.innerHTML = processTextWithSpecialSymbols(data.business_address, "font-nirmala-bold");
+                }
+                
+                // অঞ্চল ও অন্যান্য
+                if(data.zone) {
+                    let zoneName = data.zone; 
+                    let zoneNumberMap = {
+                        "অঞ্চল-১": "১", "অঞ্চল-২": "২", "অঞ্চল-৩": "৩", "অঞ্চল-৪": "৪", "অঞ্চল-৫": "৫",
+                        "অঞ্চল-৬": "৬", "অঞ্চল-৭": "৭", "অঞ্চল-৮": "৮", "অঞ্চল-৯": "৯", "অঞ্চল-১০": "১০"
+                    };
+                    let zoneEl = document.getElementById("val_zone");
+                    zoneEl.style.fontFamily = "'NirmalaUI', sans-serif";
+                    zoneEl.style.fontWeight = "normal";
+                    zoneEl.innerText = zoneNumberMap[zoneName] || zoneName;
+
+                    let sealImgElem = document.getElementById("val_seal_img");
+                    if(sealImgElem) {
+                        sealImgElem.src = zoneName + ".png";
+                    }
+                }
+
+                if(data.area) {
+                    let el = document.getElementById("val_area");
+                    el.innerHTML = processTextWithSpecialSymbols(data.area, "font-nirmala-bold");
+                }
+                if(data.ward) {
+                    let el = document.getElementById("val_ward");
+                    el.className = "font-nirmala-bold";
+                    el.innerText = data.ward;
+                }
+
+                // এনআইডি, ফোন, বিআইএন, ইমেইল (ইংরেজি/বাংলা ফন্ট লজিক)
+                function applyMixedLanguageFont(elementId, textValue, defaultBanglaClass = "font-nirmala") {
+                    let el = document.getElementById(elementId);
+                    if(!el || !textValue) return;
+                    let isEnglish = /[a-zA-Z0-9]/.test(textValue);
+                    if(isEnglish) {
+                        el.className = "font-times";
+                    } else {
+                        el.className = defaultBanglaClass;
+                    }
+                    el.innerText = textValue;
+                }
+
+                applyMixedLanguageFont("val_nid", data.nid);
+                applyMixedLanguageFont("val_phone", data.phone);
+                applyMixedLanguageFont("val_bin_no", data.bin_no);
+                
+                if(data.email) {
+                    let el = document.getElementById("val_email");
+                    el.className = "font-times";
+                    el.innerText = data.email;
+                }
+                
+                // অর্থ বছর
+                if(data.fiscal_year) {
+                    let fy = data.fiscal_year.trim();
+                    let fyElem = document.getElementById("val_fiscal_year");
+                    let isBengali = /[০-৯]/.test(fy);
+                    
+                    if (!isBengali) {
+                        if (fy !== "" && !fy.toLowerCase().includes("[new]")) {
+                            fy += "[New]";
+                        }
+                        fyElem.className = "font-times";
+                        fyElem.innerText = fy;
+                    } else {
+                        if (fy !== "" && !fy.includes("[নতুন]")) {
+                            fy += "[নতুন]";
+                        }
+                        fyElem.className = "font-sutonny";
+                        fyElem.innerText = fy;
+                    }
+                }
+
+                // ব্যবসা শুরুর তারিখ
+                if(data.start_date) {
+                    let el = document.getElementById("val_start_date");
+                    let isEnglish = /[0-9]/.test(data.start_date);
+                    if(isEnglish) {
+                        el.className = "font-times";
+                    } else {
+                        el.className = "font-sutonny";
+                    }
+                    el.innerText = data.start_date;
+                }
+
+                // বর্তমান ও স্থায়ী ঠিকানা হ্যান্ডলিং
+                function applyAddressFonts(prefix, dataObj) {
+                    let fields = ['holding', 'road', 'village', 'postcode', 'thana', 'district', 'division'];
+                    fields.forEach(field => {
+                        let val = dataObj[`${prefix}_${field}`];
+                        let el = document.getElementById(`val_${prefix}_${field}`);
+                        if(el && val) {
+                            if(field === 'village') {
+                                el.innerHTML = processTextWithSpecialSymbols(val, "font-nirmala");
+                            } else if(field === 'holding' || field === 'road') {
+                                el.innerHTML = processTextWithSpecialSymbols(val, "font-nirmala");
+                            } else {
+                                el.className = "font-nirmala";
+                                el.innerText = val;
+                            }
+                        }
+                    });
+                }
+
+                applyAddressFonts('curr', data);
+                applyAddressFonts('perm', data);
+                
+                // তারিখ ও সময়
+                if(data.issue_date) {
+                    document.getElementById("val_issue_date").innerText = ":" + data.issue_date;
+                    const banglaToEnglish = {'০':'0','১':'1','২':'2','৩':'3','৪':'4','৫':'5','৬':'6','৭':'7','৮':'8','৯':'9'};
+                    let cleanDateStr = data.issue_date.replace(/[০-৯]/g, d => banglaToEnglish[d]);
+                    let matchedYear = cleanDateStr.match(/\d{4}$/);
+                    if (matchedYear) {
+                        issueYear = parseInt(matchedYear[0]);
+                    }
+                }
+                if(data.issue_time) document.getElementById("val_issue_time").innerText = ":" + data.issue_time;
+                if(data.license_no) customLicenseNo = data.license_no;
+            }
+
+            const expiryElem = document.getElementById("val_expiry_year");
+            if (expiryElem) {
+                expiryElem.innerText = issueYear + 1;
+            }
+
+            let finalLicenseNo = "";
+            if (customLicenseNo && customLicenseNo.startsWith("TRAD/DSCC/")) {
+                let parts = customLicenseNo.split('/');
+                if (parts.length >= 4) {
+                    parts[parts.length - 1] = issueYear;
+                    finalLicenseNo = parts.join('/');
+                } else {
+                    finalLicenseNo = customLicenseNo;
+                }
+            } else {
+                let randomSixDigits = sessionStorage.getItem('randomLicenseMiddleNumber');
+                if (!randomSixDigits) {
+                    randomSixDigits = Math.floor(100000 + Math.random() * 900000);
+                    sessionStorage.setItem('randomLicenseMiddleNumber', randomSixDigits);
+                }
+                finalLicenseNo = "TRAD/DSCC/" + randomSixDigits + "/" + issueYear;
+            }
+
+            globalLicenseNo = finalLicenseNo;
+            document.getElementById("val_license_no").innerHTML = "লাইসেন্স নং&nbsp;&nbsp;&nbsp; : " + finalLicenseNo;
+        };
+
+        function triggerCustomPrint() {
+            let safeLicenseNo = globalLicenseNo.replace(/\//g, '-');
+            let dynamicFileName = `${safeLicenseNo}(${globalOwnerName})`;
+            document.title = dynamicFileName;
+            window.print();
+        }
+
+        function goBackToEdit() {
+            window.location.href = 'index.html';
+        }
+
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+</body>
+</html>
